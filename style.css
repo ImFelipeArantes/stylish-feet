@@ -1,0 +1,62 @@
+.self-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.875rem 1rem;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #0d6efd;
+}
+
+.img-product {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20rem;
+  height: 15rem;
+}
+
+.product-title {
+  color: #333;
+}
+
+.container {
+  width: 100%;
+}
+
+.card {
+  float: left;
+  width: 49%;
+  display: block;
+  height: 30rem;
+  margin: 1% 1%;
+}
+
+.img-card {
+  height: 15rem;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+}
